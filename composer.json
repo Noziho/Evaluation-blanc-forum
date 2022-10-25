@@ -1,0 +1,15 @@
+{
+    "name": "noahd/evaluation-blanc-forum",
+    "autoload": {
+        "psr-4": {
+            "Noahd\\EvaluationBlancForum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "noahd",
+            "email": "noah.decroix3@gmail.com"
+        }
+    ],
+    "require": {}
+}
