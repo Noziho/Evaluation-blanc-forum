@@ -57,9 +57,40 @@ span {
 }
 
 .container > div {
-    border: 1px solid red;
     width: 70%;
     min-height: 30rem;
     background: #eaeaea;
     padding: 1rem;
+}
+
+.contact_form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    padding: 1rem;
+}
+
+.contact_form > div {
+    display: flex;
+    width: 50%;
+    flex-flow: column wrap;
+    margin: 0 1rem 3rem 1rem;
+}
+
+.contact_form > div > label {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    background: #c0c0c0;
 }
