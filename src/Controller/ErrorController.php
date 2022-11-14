@@ -10,6 +10,6 @@ class ErrorController extends AbstractController {
     }
 
     public function error404() {
-
+        self::render('error/test');
     }
 }

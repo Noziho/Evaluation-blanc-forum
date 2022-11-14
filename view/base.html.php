@@ -6,10 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Forum</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/build/css/app.css">
 </head>
 
 <body>
+<h1>TEST</h1>
     <header>
         <div>
             <h1>Forum</h1>
@@ -27,10 +28,10 @@
         </div>
 
     </header>
-    <main><?= $data ?></main>
+    <main><?= $html ?></main>
 
 
-    <script src="/assets/js/app.js"></script>
+    <script src="/build/js/app-bundle.js"></script>
 </body>
 
 </html>

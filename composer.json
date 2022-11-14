@@ -2,7 +2,7 @@
     "name": "noahd/evaluation-blanc-forum",
     "autoload": {
         "psr-4": {
-            "Noahd\\EvaluationBlancForum\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,8 @@
             "email": "noah.decroix3@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-pdo": "*",
+        "symfony/error-handler": "^5.4"
+    }
 }
