@@ -10,21 +10,19 @@
 </head>
 
 <body>
-<h1>TEST</h1>
     <header>
         <div>
-            <h1>Forum</h1>
+            <a href="/?c=home"><h1 id="homeTittle">Forum</h1></a>
         </div>
 
-        <div>
+        <div id="header_link_container">
             <div>
-                <a href=""></a>
+                <a href="/?c=user&a=contact">Contact</a>
             </div>
 
             <div>
-                <a href=""></a>
+                <a href="/?c=user&a=login">Login</a><span>/</span><a href="/?c=user&a=register">Inscription</a>
             </div>
-
         </div>
 
     </header>

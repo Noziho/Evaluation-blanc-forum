@@ -5,7 +5,61 @@
     box-sizing: border-box;
 }
 
+* a {
+    text-decoration: none;
+    color: #4d4d4d;
+    transition: 0.5s;
+}
+
+* a:hover {
+    color: #282828;
+    font-size: 2rem;
+}
+
 html {
     font-size: 62.5%;
 }
 
+body {
+    background: #f7f7f7;
+    font-size: 1.6rem;
+}
+
+header {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    background: #eaeaea;
+}
+
+#header_link_container {
+    display: flex;
+    align-items: center;
+}
+
+#header_link_container > div {
+    margin-inline: 1rem;
+}
+
+span {
+    color: #4d4d4d;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.container > div {
+    border: 1px solid red;
+    width: 70%;
+    min-height: 30rem;
+    background: #eaeaea;
+    padding: 1rem;
+}
